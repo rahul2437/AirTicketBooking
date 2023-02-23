@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Air Ticket Booking NEM Backend App",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "server": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
